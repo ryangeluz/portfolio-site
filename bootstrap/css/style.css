@@ -1,3 +1,5 @@
+
+
 img, embed, object, video {
 	max-width: 100%;
 }
@@ -11,8 +13,13 @@ body {
 	font-family: 'Flamenco', cursive;
 	color: #747704;
 	font-weight: 300;
+	background-color: black;
 }
 
+.headshot {
+	max-height: 100px;
+	max-width: 100px;
+}
 .text-muted {
 	color: #BCBBBB;
 }
