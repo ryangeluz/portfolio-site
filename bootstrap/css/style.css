@@ -16,10 +16,28 @@ body {
 	background-color: black;
 }
 
+/* test code, will remove at project submission
+@media screen and (max-width: 991px) {
+
+}
+
+*/
+
+/*   test code, will remove at project submission
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+*/
 .headshot {
 	max-height: 100px;
 	max-width: 100px;
 }
+
+.img-responsive {
+	width: 100%;
+}
+
 .text-muted {
 	color: #BCBBBB;
 }
