@@ -1,4 +1,6 @@
-
+p {
+	font-size: 18px;
+}
 
 img, embed, object, video {
 	max-width: 100%;
@@ -16,19 +18,15 @@ body {
 	background-color: black;
 }
 
-/* test code, will remove at project submission
-@media screen and (max-width: 991px) {
+/*   test code, at a later time, I may choose to play around with
+     different container sets to see what else might be done.
 
-}
-
-*/
-
-/*   test code, will remove at project submission
 .container {
 	display: flex;
 	flex-wrap: wrap;
 }
 */
+
 .headshot {
 	max-height: 100px;
 	max-width: 100px;

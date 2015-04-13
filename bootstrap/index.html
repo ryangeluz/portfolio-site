@@ -6,23 +6,40 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title></title>
 		<link href='http://fonts.googleapis.com/css?family=Flamenco:300,400' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
 		<script type="text/javascript" src="js/jquery-1.11.2.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	</head>
 <body>
 
 <!-- Modal -->
+<div class="modal fade" id="project0" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Project 0: Hello World!</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/workspace.jpg">
+        This was my "get-my-feet-wet" project. I learned the initial commands for HTML and how to use CSS alongside it. I selected a preferred text editor and became familiar with the Linux Command Line — which also, funnily enough, made me want to re-organize all of the folders on my hard-drive. I also took this time to become competent using Git and GitHub for version control and collaborative projects.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+        <h4 class="modal-title" id="myModalLabel">Project 1: Portfolio Front-Page</h4>
       </div>
       <div class="modal-body">
-        <img class="img-responsive" src="images/555.jpeg">
-        This was my first project in this class. I learned a lot about HTML and CSS.
+        <img class="img-responsive" src="images/note-pad-pencil.jpg">
+        Project 1 is quite simply the front page you see here. I learned fundamentals of HTML and CSS, building this site both through a custom grid-based framework and through the use of Bootstrap (as I've opted for here). I also learned the fundamentals of responsive website design (try opening the page on different devices) and how to manipulate images to fit structurally and to optimize resolution and page speed using various tools: Grunt, GraphicsMagick, Image Optim.
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -35,28 +52,11 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+        <h4 class="modal-title" id="myModalLabel">Project 2: Interactive Resume</h4>
       </div>
       <div class="modal-body">
-        <img class="img-responsive" src="images/555.jpeg">
-        This was my second project in this class. I learned a lot about HTML and CSS.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/555.jpeg">
-        This was my third project in this class. I learned a lot about HTML and CSS.
+        <img class="img-responsive" src="images/mobile.jpg">
+        Project 2 (still in progress!) is currently kicking my butt! I've taken fundamental coding classes (Java and Python) at different times in the past, but I'm going through the wringer, so to speak, in getting myself up to speed with JavaScript using the same principles. At the end of this project, I will have a not-so-modest, highly interactive page listing my qualifications aided by JavaScript and jQuery.
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -84,7 +84,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-12">
-			<img class="img-responsive" src="images/staircase.jpg" alt="">
+			<img class="img-responsive" src="images/staircase.jpg" alt="Winding Staircase in a Plaza">
 		</div>
 	</div>
 	<div class="row">
@@ -94,21 +94,21 @@
 	</div>
 	<div class="row text-center">
 		<div class="col-md-4">
-			<img class="img-responsive" src="images/workspace.jpg" alt="Project 1" data-toggle="modal" data-target="#project1">
-			<h3 class="text-uppercase">Project1</h3>
-			<p>https://github.com/udacity/appify</p>
+			<img class="img-responsive" src="images/workspace.jpg" alt="Link to Project 0: Hello-World - Workspace with a laptop, writing utensils, a journal, and a plant" data-toggle="modal" data-target="#project0">
+			<a href="https://github.com/ryangeluz/hello-world"><h3 class="text-uppercase">Project 0</h3></a>
+			<p>Hello World!</p>
 		</div>
 	
 		<div class="col-md-4">
-			<img class="img-responsive" src="images/note-pad-pencil.jpg" alt="Project 2" data-toggle="modal" data-target="#project2">
-			<h3 class="text-uppercase">Project2</h3>
-			<p>https://github.com/udacity/appify</p>
+			<img class="img-responsive" src="images/note-pad-pencil.jpg" alt="Link to Project 1: Portfolio Front-Page - Photo of a mini yellow pad and pencil" data-toggle="modal" data-target="#project1">
+			<a href="https://github.com/ryangeluz/portfolio-site"><h3 class="text-uppercase">Project 1</h3></a>
+			<p>Portfolio Project</p>
 		</div>
 	
 		<div class="col-md-4">
-			<img class="img-responsive" src="images/mobile.jpg" alt="Project 3" data-toggle="modal" data-target="#project3">
-			<h3 class="text-uppercase">Project3</h3>
-			<p>https://github.com/udacity/appify</p>
+			<img class="img-responsive" src="images/mobile.jpg" alt="Link to Project 2: Interative Resume - Photo of a Mobile Device" data-toggle="modal" data-target="#project2">
+			<a href="https://github.com/ryangeluz/frontend-nanodegree-resume"><h3 class="text-uppercase">Project 2</h3></a>
+			<p>Interactive Resume <br>(in progress!)</p>
 		</div>
 	
 	</div>
